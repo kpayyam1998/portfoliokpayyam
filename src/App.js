@@ -326,10 +326,12 @@ export default function App() {
                 View Deployed Projects
                 <Rocket className="ml-3 w-5 h-5 group-hover:translate-x-0.5 transition-transform" />
               </button>
+              <a href='/docs/Karuppasamy_AI_ML_Resume.pdf' download="Karuppasamy_AI_ML_Resume.pdf">
               <button className="group px-8 py-3.5 rounded-xl font-bold border-2 border-white/20 text-white backdrop-blur-sm hover:bg-white/10 hover:border-cyan-400 transition-all flex items-center">
                 Download CV
                 <Download className="ml-3 w-5 h-5 group-hover:text-cyan-400 transition-colors" />
               </button>
+              </a>
             </div>
 
             {/* Stats Grid */}
@@ -387,7 +389,7 @@ export default function App() {
                 <div className="relative flex flex-col items-center">
                   <div className="w-48 h-48 rounded-full p-2 bg-gradient-to-br from-cyan-400 to-violet-500 mb-8 shadow-2xl shadow-cyan-500/30 ring-4 ring-cyan-500/10">
                     <div className="w-full h-full rounded-full bg-[#01040f] flex items-center justify-center overflow-hidden">
-                       <img src="https://placehold.co/200x200/01040f/00ffff?text=KS+Profile" alt="Profile" className="w-full h-full object-cover opacity-90 transition-opacity" />
+                       <img src="kp_image.jpg" alt="Profile" className="w-full h-full object-cover opacity-90 transition-opacity" />
                     </div>
                   </div>
 
